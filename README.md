@@ -20,8 +20,9 @@ You can download and install MySQL from the official website: [MySQL Downloads](
 
 ### Setting up the Database
 
-1. In the project's `config` directory, locate the `config.js` file.
-2. Open the `config.js` file and configure your MySQL database settings:
+1. Checkout to master branch and take a pull.
+2. In the project's `config` directory, locate the `config.js` file.
+3. Open the `config.js` file and configure your MySQL database settings:
 
 ```
 module.exports = {
