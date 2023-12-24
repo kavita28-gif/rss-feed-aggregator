@@ -1,9 +1,9 @@
 module.exports = {
   development: {
-    jwtPrivateKey: "url_jwtPrivateKey",
-    database: 'rss_aggregator',
-    username: 'root',
-    password: 'Mysql@2023',
+    jwtPrivateKey: 'your_jwtPrivateKey',
+    database: 'your_database_name',
+    username: 'your_database_username',
+    password: 'your_database_password',
     host: 'localhost',
     dialect: 'mysql',
     pool: {
