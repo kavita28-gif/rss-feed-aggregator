@@ -25,11 +25,6 @@ db.sync()
 app.use('/feeds', feedsRouter);
 app.use('/users', usersRouter);
 
-// Home route
-app.get('/', (req, res) => {
-  res.render('register');
-});
-
 // Start the server
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
